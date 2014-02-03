@@ -17,7 +17,7 @@
 .contactForm input, .contactForm textarea {
 	width:100%;
 	padding:15px;
-	background-color:rgba(255,255,255,.6);
+	background-color:rgba(255,255,255,.6d);
 }
 
 section:nth-last-child(1) {

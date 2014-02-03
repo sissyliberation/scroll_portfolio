@@ -24,7 +24,38 @@
       $(".main").onepage_scroll({
         sectionContainer: "section",
         loop: true,
-        responsiveFallback: 600
+        responsiveFallback: 600,
+        afterMove: function(index) {
+      alert(index);
+      if(index==2) {
+        if(!visited_tree) {
+          setTimeout(function(){
+            addToDepth(1);
+            addToBreadth(1);
+            setTimeout(function(){
+              addToDepth(1);
+              addToDepth(1);
+              addToBreadth(1);
+              visited_tree = true;
+            },200);
+          },100);
+        }
+      }
+      else if(index==3) {
+        if(!visited_graph) {
+          setTimeout(function(){
+            newGraph(nodes+1);
+            setTimeout(function(){
+              newGraph(nodes+1);
+              setTimeout(function(){
+                newGraph(nodes+1);
+                visited_graph = true;
+              },200);
+            },200);
+          },100);
+        }
+      }
+    }
       });
 		});
 		
