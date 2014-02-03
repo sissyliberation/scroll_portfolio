@@ -24,6 +24,7 @@ section:nth-last-child(1) {
 	background-color:#cccccc;
 	background-image: url("http://placekitten.com/g/1920/1280");
 	background-position: center;
+	background-size: 100% auto;
 }
 
 section:nth-last-child(1) h1 {
