@@ -20,13 +20,6 @@
 	background-color:rgba(255,255,255,.6d);
 }
 
-section:nth-last-child(1) {
-	background-color:#cccccc;
-	background-image: url("http://placekitten.com/g/1920/1280");
-	background-position: center;
-	background-size: 100% auto;
-}
-
 section:nth-last-child(1) h1 {
 	padding:0;
 	font-size: 55px;
