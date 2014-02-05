@@ -28,7 +28,7 @@
 
 	  <div class="main onepage-wrapper" style="position: relative;">
 	    
-      <section class="page1 section active" data-index="1" style="position: absolute; top: 0%;">
+      <section class="page1 section active" data-index="1" style="position: absolute; top: 0%; background-color:#f3f3f3;">
         <div class="page_container">
           <h1>Hi, I'm Yves Courtois</h1>
           <p class="info">Currently a student at the University of Texas at Austin, I am pursuing a BS in Mathematics with a concentration in Scientific Computation, a BA in Philosophy, and an Elements of Computing Certificate.</p>
@@ -54,7 +54,7 @@
         </div>
       </section>
 
-      <section class="page4 section" data-index="4" style="position: absolute; top: 300%;background-color:#222;">
+      <section class="page4 section" data-index="4" style="position: absolute; top: 300%;background-color:#000;">
         <a href="https://github.com/yvescourtois/completeGraph"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
         <br>
         <input type="button" onclick="newGraph(nodes-1);" value="-">
