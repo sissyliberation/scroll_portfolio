@@ -4,11 +4,12 @@
 	<meta charset="utf-8">
 	<title>YvesCourtoisDotCom</title>
 	<meta name="title" content="Yves Courtois | My Portfolio">
-	<meta name="description" content="Hi, I'm Yves Courtois. I'm a UT student, web developer, and robotics enthusiast.">
+	<meta name="description" content="Hi, I'm Yves Courtois. I'm a UT student, freelance web developer, and robotics enthusiast.">
 	<link rel="image_src" href="">
   <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
-	<meta content="http://www.yvescourtois.com" property="og:url">
-	<meta content="" property="og:image">
+	<meta property="og:site_name" content="Yves Courtois Portfolio"/>
+  <meta content="http://www.yvescourtois.com" property="og:url">
+	<meta content="http://www.yvescourtois.com/images/logo.png" property="og:image">
 	<link rel="shortcut icon" id="favicon" href="favicon.png"> 
 	<meta name="author" content="Yves Courtois">
 
