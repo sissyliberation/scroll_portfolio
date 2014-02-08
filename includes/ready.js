@@ -1,14 +1,4 @@
 $(document).ready(function () {
-    var w = window.innerWidth;
-    var h = window.innerHeight;
-    var url = "http://placekitten.com/g/"+w+"/"+h;
-    console.log(url);
-    $('section:nth-last-child(1)').css({
-        "background-color":"#cccccc",
-        "background-image": "url("+url+")",
-        "background-position": "center",
-        "background-size": "100%"
-    });
 
     var not_visited_graph = true;
     var not_visited_tree = true;

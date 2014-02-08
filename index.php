@@ -55,7 +55,7 @@
         </div>
       </section>
 
-      <section class="page4 section" data-index="4" style="position: absolute; top: 300%;background-color:#000;">
+      <section class="page4 section" data-index="4" style="position: absolute; top: 300%;background-color:#888;">
         <a href="https://github.com/yvescourtois/completeGraph"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
         <br>
         <input type="button" onclick="newGraph(nodes-1);" value="-">
@@ -84,7 +84,7 @@
         </div>
       </section>
 
-      <section class="page6 section" data-index="6" id="6" style="position: absolute; top: 500%;">
+      <section class="page6 section" data-index="6" id="6" style="position: absolute; top: 500%; background-color:#222;">
         <div class="page_container">
           <h1>Contact Me</h1>
 
