@@ -22,7 +22,6 @@
 
 section:nth-last-child(1)  {
 	background-image: url(img/zwartevilt.png);
-	background-size: 100%;
 }
 
 section:nth-last-child(1) h1 {
@@ -50,8 +49,10 @@ section:nth-last-child(2) a:hover {
 	color:#888;
 	text-decoration: underline;
 }
+
 section:nth-last-child(2) li {
 	padding-top:7px;
+	text-align:left;
 }
 
 section:nth-last-child(2) h1 {
