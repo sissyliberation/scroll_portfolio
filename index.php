@@ -64,13 +64,18 @@
 
       <section class="page5 section" data-index="5" style="position: absolute; top: 400%;">
         <div class="page_container">
-          <h1>Other Work I've done:</h1>
+          <h1>Work I've done:</h1>
           <ul style="clear:both;text-align:left;list-style-type:none;padding-top:20px;">
             <li><a href="#">This Site</a></li>
+            <li><a href="http://ungender.me/">ungender.me, Gender-Neutral text converter</a></li>
             <li><a href="https://chrome.google.com/webstore/detail/your-new-tab-page/daeegpekhhgennllidlchmpaamfjhnfk">Your New Tab Page - Chrome Extension</a></li>
             <li><a href="https://chrome.google.com/webstore/detail/craigslist-last-visited/mpkmnnbdgbaddfngokdcdojhdakjhenm/">CraigsList: Last Visited - Chrome Extension</a></li>
             <li><a href="http://yvescourtois.com/tsh/">UT - Texas Secular Humanists Site</a></li>
             <li><a href="http://yvescourtois.com/piechart/">Dynamic Pie Chart Maker</a></li>
+            <li><a href="" onclick=" $('.main').moveTo(2);return false;">Polar Clock - JS</a></li>
+            <li><a href="" onclick=" $('.main').moveTo(3);return false;">Fractal Trees - JS</a></li>
+            <li><a href="" onclick=" $('.main').moveTo(4);return false;">Complete Graph - JS</a></li>
+
             <li><a href="http://ras.ece.utexas.edu/">UT IEEE Robotics and Automation Society Site</a></li>
             <li><a href="http://dsbof.com/">UT Tea Club Site</a></li>
             <li><a href="http://yvescourtois.com/pong_js/">Pong - JS game for browsers</a></li>
