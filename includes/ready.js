@@ -1,5 +1,23 @@
 $(document).ready(function () {
 
+
+
+  $('.description').hide();
+
+  $('.work li a').on('click',function(e){
+    e.preventDefault();
+    if( $(this).siblings().is( ":hidden" )  ) {
+      $('.description').hide();
+      $(this).siblings().show();
+    }
+    else {
+      $('.description').hide();
+      $(this).siblings().hide();
+    }
+  });
+
+
+
   var not_visited_graph = true;
   var not_visited_tree = true;
   $('.contactFormBtn').on("click", function () {
@@ -8,7 +26,7 @@ $(document).ready(function () {
       $('.contactFormBtn textarea [name="message"]').val() == "") {
       alert("Please fill out the form completely");
     } else {
-        $(this).  closest('form').submit();
+        $(this).closest('form').submit();
     }
   });
 

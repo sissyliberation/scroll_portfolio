@@ -62,28 +62,81 @@
         <input type="button" onclick="newGraph(nodes+1);" value="+">
       </section>
 
-      <section class="page5 section" data-index="5" style="position: absolute; top: 400%;background-color:#f3f3f3;">
+      <section class="page5 section" data-index="5" style="position: absolute; top: 400%;background-color:#fff;">
         <div class="page_container">
           <h1>Work I've done:</h1>
-          <ul style="clear:both;text-align:left;list-style-type:none;padding-top:20px;">
-            <li><a href="#">This Site</a></li>
-            <li><a href="http://ungender.me/">ungender.me</a></li>
-            <li><a href="https://chrome.google.com/webstore/detail/your-new-tab-page/daeegpekhhgennllidlchmpaamfjhnfk">Your New Tab Page - Chrome Extension</a></li>
-            <li><a href="https://chrome.google.com/webstore/detail/craigslist-last-visited/mpkmnnbdgbaddfngokdcdojhdakjhenm/">CraigsList: Last Visited - Chrome Extension</a></li>
-            <li><a href="http://yvescourtois.com/tsh/">UT - Texas Secular Humanists Site</a></li>
-            <li><a href="http://yvescourtois.com/piechart/">Dynamic Pie Chart Maker</a></li>
-            <li><a href="" onclick=" $('.main').moveTo(2);return false;">Polar Clock - JS</a></li>
-            <li><a href="" onclick=" $('.main').moveTo(3);return false;">Fractal Trees - JS</a></li>
-            <li><a href="" onclick=" $('.main').moveTo(4);return false;">Complete Graph - JS</a></li>
-
-            <li><a href="http://ras.ece.utexas.edu/">UT IEEE Robotics and Automation Society Site</a></li>
-            <li><a href="http://dsbof.com/">UT Tea Club Site</a></li>
-            <li><a href="http://yvescourtois.com/pong_js/">Pong - JS game for browsers</a></li>
-            <li><a href="http://yvescourtois.com/robotsAndDiamonds/">Robots and Diamonds game for browsers</a></li>
-            <li><a href="http://yvescourtois.com/archimedesSpiral/">Archimedes Spiral - JS</a></li>
-            <li><a href="https://github.com/yvescourtois/facebook-auto-like">Facebook Auto-Like Script</a></li>
-            <li><a href="http://utskphi.com/">Sigma Kappa Phi UT Fraternaty Site</a></li>
-            <li><a href="http://yvescourtois.com/lychrel/">Lychrel Number Calculator</a></li>
+          <ul class="work" style="clear:both;text-align:left;list-style-type:none;padding-top:20px;">
+            <li>
+              <a href="#">This Site</a>
+              <p class="description">This is my online portfolio and resume.</p>
+            </li>
+            <li>
+              <a>Facebook Group Data Visualization</a>
+              <p class="description">Data collected from Facebook groups is analyzed and represented in a convenient and useful manner. View it <a href="http://disregardingstandards.com/">here</a>.</p>
+            </li>
+            <li>
+              <a>ungender.me</a>
+              <p class="description">ungender.me is a site + Android app for making text gender-neutral. View it <a href="http://ungender.me">here</a>.</p>
+            </li>
+            <li>
+              <a>Your New Tab Page - Chrome Extension</a>
+              <p class="description">This Chrome Extension allows you to customize your 'New Tab Page' in your browser to make it cleaner and more productive. Install it <a href="https://chrome.google.com/webstore/detail/your-new-tab-page/daeegpekhhgennllidlchmpaamfjhnfk">here</a>.</p>
+            </li>
+            <li>
+              <a>CraigsList: Last Visited - Chrome Extension</a>
+              <p class="description">This Chrome Extension adds usability to CraigsList, enabling your browsing to be easier and faster. Install it <a href="https://chrome.google.com/webstore/detail/craigslist-last-visited/mpkmnnbdgbaddfngokdcdojhdakjhenm/">here</a>.</p>
+            </li>
+            <li>
+              <a>UT - Texas Secular Humanists Site</a>
+              <p class="description">This parallax scrolling site is made for a great UT student org. View it <a href="http://txhumanists.org/">here</a>.</p>
+            </li>
+            <li>
+              <a>Dynamic Pie Chart Maker</a>
+              <p class="description">Allows you to make custom pie charts and download them as an image and data. View it <a href="http://yvescourtois.com/piechart/">here</a>.</p>
+            <li>
+              <a >Polar Clock - JS</a>
+              <p class="description">A Clock and calendar displayed using Polar Coordinates. View it <a onclick=" $('.main').moveTo(2);return false;">here</a>.</p>
+            </li>
+            <li>
+              <a>Fractal Trees - JS</a>
+              <p class="description">Recursive fractal n-trees in JavaScript. View it <a onclick=" $('.main').moveTo(3);return false;">here</a>.</p>
+            </li>
+            <li>
+              <a>Complete Graph - JS</a>
+              <p class="description">Complete Graph written in JavaScript. View it <a onclick=" $('.main').moveTo(4);return false;">here</a></p>
+            </li>
+            <li>
+              <a>UT IEEE Robotics and Automation Society Site</a>
+              <p class="description">Website for the Robotics Club at UT. View it <a href="http://ras.ece.utexas.edu/">here</a>.</p>
+            </li>
+            <li>
+              <a>UT Tea Club Site</a>
+              <p class="description">Website for The Tea Club at UT. View it <a href="http://dsbof.com/">here</a>.</p>
+            </li>
+            <li>
+              <a>Pong - JS game for browsers</a>
+              <p class="description">Classic Pong game for your browser written in JavaScript. Play it <a href="http://yvescourtois.com/pong_js/">here</a>.</p>
+            </li>
+            <li>
+              <a>Robots and Diamonds game for browsers</a>
+              <p class="description">Simple 2D game against a CPU. Play it <a href="http://yvescourtois.com/robotsAndDiamonds/">here</a>.</p>
+            </li>
+            <li>
+              <a>Archimedes Spiral - JS</a>
+              <p class="description">Archimedes Spiral written in JavaScript. View it <a href="http://yvescourtois.com/archimedesSpiral/">here</a>.</p>
+            </li>
+            <li>
+              <a>Facebook Auto-Like Script</a>
+              <p class="description">Allows you to automatically 'like' posts on your wall on Facebook, and can match against words. Get it <a href="https://github.com/yvescourtois/facebook-auto-like">here</a>.</p>
+            </li>
+            <li>
+              <a>Sigma Kappa Phi UT Fraternity Site</a>
+              <p class="description">Website for a fraternity at UT. View it <a href="http://utskphi.com/">here</a>.</p>
+            </li>
+            <li>
+              <a>Lychrel Number Calculator</a>
+              <p class="description">Lychrel Number Calculator in JavaScript. View it <a href="http://yvescourtois.com/lychrel/">here</a>.</p>
+            </li>
           </ul>
           <p>Check out my <a href="https://github.com/yvescourtois" class="links">GitHub</a> and <a href="http://www.linkedin.com/pub/yves-courtois/72/918/b08" class="links">LinkedIn</a> Too.</p>
         </div>

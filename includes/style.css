@@ -60,3 +60,11 @@ section:nth-last-child(2) h1 {
 	font-size: 55px;
 	color:#333;
 }
+
+.description {
+	margin:5px;
+	padding-left: 20px;
+}
+.description a {
+	text-decoration: underline;
+}
