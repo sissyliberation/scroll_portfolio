@@ -34,6 +34,7 @@
           <h1>Hi, I'm Yves Courtois</h1>
           <p class="info">Currently a student at the University of Texas at Austin, I am pursuing a BS in Mathematics with a concentration in Scientific Computation, a BA in Philosophy, and an Elements of Computing Certificate.</p>
           <p class="info">I enjoy projects involving robotics, web design and development, and programming, making, breaking, hacking, and designing things.</p>
+          <p class="info">I use gender-neutral pronouns: they/them, please.</p>
           <h2 class="scrollInfo">scroll down for more</h2>
   	    </div>
   	    <!-- <img src="./index_files/phones.png" alt="phones"> -->
