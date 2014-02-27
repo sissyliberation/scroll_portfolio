@@ -5,7 +5,6 @@ $(document).ready(function () {
   $('.description').hide();
 
   $('.work li a').on('click',function(e){
-    e.preventDefault();
     if( $(this).siblings().is( ":hidden" )  ) {
       $('.description').hide();
       $(this).siblings().show();
