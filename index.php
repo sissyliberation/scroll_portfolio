@@ -71,14 +71,17 @@
               <a href="#">This Site</a>
               <p class="description">This is my online portfolio and resume.</p>
             </li>
-
-            <li>
-              <a>Facebook Group Data Visualization</a>
-              <p class="description">Data collected from Facebook groups is analyzed and represented in a convenient and useful manner. View it <a href="http://disregardingstandards.com/">here</a>.</p>
-            </li>
             <li>
               <a>ungender.me</a>
               <p class="description">ungender.me is a site + Android app for making text gender-neutral. View it <a href="http://ungender.me">here</a>.</p>
+            </li>
+            <li>
+              <a>Gay Bi Gay Gay - Site</a>
+              <p class="description">Gay Bi Gay Gay is a queer music festival in Austin, TX that happens on the Last day of South By Southwest. I was really glad to volunteer to work with a great teammate on the WordPress site. View it <a href="http://gaybigaygay.com/">here</a>.</p>
+            </li>
+            <li>
+              <a>Facebook Group Data Visualization</a>
+              <p class="description">Data collected from Facebook groups is analyzed and represented in a convenient and useful manner. View it <a href="http://disregardingstandards.com/">here</a>.</p>
             </li>
             <li>
               <a>Your New Tab Page - Chrome Extension</a>
